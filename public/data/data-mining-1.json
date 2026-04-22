@@ -1,0 +1,225 @@
+{
+  "title": "Data Mining for Decision Making - Week 1",
+  "questions": [
+    {
+      "question": "What is the key assumption behind the Naïve Bayes classifier?",
+      "options": [
+        "Attributes are linearly related",
+        "Attributes are conditionally independent given the class",
+        "All attributes have equal importance",
+        "Class labels are numeric",
+        "None of these"
+      ],
+      "answer": "Attributes are conditionally independent given the class"
+    },
+    {
+      "question": "Which probability is estimated directly from the training data in Naïve Bayes?",
+      "options": [
+        "Posterior probability",
+        "Likelihood probability",
+        "Conditional entropy",
+        "Information gain",
+        "None of these"
+      ],
+      "answer": "Likelihood probability"
+    },
+    {
+      "question": "Why is Laplace smoothing used in Naïve Bayes classification?",
+      "options": [
+        "To normalize numeric attributes",
+        "To increase model accuracy always",
+        "To avoid zero probability for unseen attribute values",
+        "To remove missing values",
+        "None of these"
+      ],
+      "answer": "To avoid zero probability for unseen attribute values"
+    },
+    {
+      "question": "Which probability is called the prior probability in Naïve Bayes?",
+      "options": [
+        "P(A | C)",
+        "P(C | A)",
+        "P(C)",
+        "P(A)",
+        "None of these"
+      ],
+      "answer": "P(C)"
+    },
+    {
+      "question": "Which of the following correctly represents Bayes’ theorem?",
+      "options": [
+        "P(A | B) = P(A)P(B)",
+        "P(A | B) = P(B | A) / P(B)",
+        "P(A | B) = P(B | A)P(A) / P(B)",
+        "P(A | B) = P(A ∩ B)",
+        "None of these"
+      ],
+      "answer": "P(A | B) = P(B | A)P(A) / P(B)"
+    },
+    {
+      "question": "How are numeric attributes commonly handled in Naïve Bayes?",
+      "options": [
+        "Ignored during classification",
+        "Converted to categorical only",
+        "Modeled using probability density functions",
+        "Assigned equal probability",
+        "None of these"
+      ],
+      "answer": "Modeled using probability density functions"
+    },
+    {
+      "question": "In Naïve Bayes, which probability is maximized to assign a class label?",
+      "options": [
+        "Likelihood",
+        "Prior",
+        "Posterior",
+        "Conditional entropy",
+        "None of these"
+      ],
+      "answer": "Posterior"
+    },
+    {
+      "question": "If an attribute value never appears with a class in training data, Naïve Bayes will assign:",
+      "options": [
+        "Maximum probability",
+        "Zero probability",
+        "Equal probability",
+        "Random probability",
+        "None of these"
+      ],
+      "answer": "Zero probability"
+    },
+    {
+      "question": "Which of the following is an example of a categorical attribute?",
+      "options": [
+        "Age",
+        "Salary",
+        "Temperature",
+        "Outlook",
+        "None of these"
+      ],
+      "answer": "Outlook"
+    },
+    {
+      "question": "A decision list is best described as:",
+      "options": [
+        "A tree of decisions",
+        "A set of unordered rules",
+        "An ordered sequence of IF–THEN rules",
+        "A probabilistic model",
+        "None of these"
+      ],
+      "answer": "An ordered sequence of IF–THEN rules"
+    },
+    {
+      "question": "Which of the following best defines data mining?",
+      "options": [
+        "Storing large datasets",
+        "Manual data analysis",
+        "Discovering patterns and knowledge from data",
+        "Data visualization only",
+        "None of these"
+      ],
+      "answer": "Discovering patterns and knowledge from data"
+    },
+    {
+      "question": "Which task is NOT a data mining task?",
+      "options": [
+        "Classification",
+        "Clustering",
+        "Regression",
+        "Data storage",
+        "None of these"
+      ],
+      "answer": "Data storage"
+    },
+    {
+      "question": "Which attribute type requires probability density estimation in Naïve Bayes?",
+      "options": [
+        "Boolean",
+        "Nominal",
+        "Numeric",
+        "Ordinal",
+        "None of these"
+      ],
+      "answer": "Numeric"
+    },
+    {
+      "question": "Which symbol is used to declare a relation in an ARFF file?",
+      "options": [
+        "#",
+        "@RELATION",
+        "@DATA",
+        "@ATTRIBUTE",
+        "None of these"
+      ],
+      "answer": "@RELATION"
+    },
+    {
+      "question": "Which section of an ARFF file contains the actual dataset values?",
+      "options": [
+        "@RELATION",
+        "@ATTRIBUTE",
+        "@DATA",
+        "@VALUES",
+        "None of these"
+      ],
+      "answer": "@DATA"
+    },
+    {
+      "question": "Consider an attribute Eats with values {Baked, Fried, Roasted}. If for Students: Baked=3, Fried=2, Roasted=0 and total Students=5, using Laplace smoothing, P(Eats=Baked | Student) equals:",
+      "options": [
+        "0.25",
+        "0.40",
+        "0.50",
+        "0.60",
+        "None of these"
+      ],
+      "answer": "0.50"
+    },
+    {
+      "question": "How are missing values typically treated in Naïve Bayes?",
+      "options": [
+        "Records are removed",
+        "Replaced with zero",
+        "Ignored in probability calculation",
+        "Always replaced by mean",
+        "None of these"
+      ],
+      "answer": "Ignored in probability calculation"
+    },
+    {
+      "question": "Which of the following is an example of a numeric attribute?",
+      "options": [
+        "Gender",
+        "Class label",
+        "Age",
+        "Color",
+        "None of these"
+      ],
+      "answer": "Age"
+    },
+    {
+      "question": "Which component of Naïve Bayes represents evidence from attributes?",
+      "options": [
+        "Prior",
+        "Likelihood",
+        "Posterior",
+        "Entropy",
+        "None of these"
+      ],
+      "answer": "Likelihood"
+    },
+    {
+      "question": "Why is Naïve Bayes computationally efficient?",
+      "options": [
+        "Uses decision trees",
+        "Requires no training data",
+        "Assumes attribute independence",
+        "Uses clustering",
+        "None of these"
+      ],
+      "answer": "Assumes attribute independence"
+    }
+  ]
+}

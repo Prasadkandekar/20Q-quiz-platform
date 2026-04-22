@@ -1,0 +1,60 @@
+{
+  "title": "General Science",
+  "questions": [
+    {
+      "question": "What is the chemical symbol for gold?",
+      "options": ["Go", "Gd", "Au", "Ag"],
+      "answer": "Au"
+    },
+    {
+      "question": "How many bones are in the adult human body?",
+      "options": ["196", "206", "216", "226"],
+      "answer": "206"
+    },
+    {
+      "question": "What is the speed of light in a vacuum?",
+      "options": ["300,000 km/s", "150,000 km/s", "450,000 km/s", "250,000 km/s"],
+      "answer": "300,000 km/s"
+    },
+    {
+      "question": "Which planet has the most moons in our solar system?",
+      "options": ["Jupiter", "Saturn", "Uranus", "Neptune"],
+      "answer": "Saturn"
+    },
+    {
+      "question": "What is the powerhouse of the cell?",
+      "options": ["Nucleus", "Ribosome", "Mitochondria", "Golgi apparatus"],
+      "answer": "Mitochondria"
+    },
+    {
+      "question": "What is the atomic number of carbon?",
+      "options": ["4", "6", "8", "12"],
+      "answer": "6"
+    },
+    {
+      "question": "Which gas do plants absorb during photosynthesis?",
+      "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+      "answer": "Carbon Dioxide"
+    },
+    {
+      "question": "What force keeps planets in orbit around the sun?",
+      "options": ["Magnetism", "Electrostatic force", "Gravity", "Nuclear force"],
+      "answer": "Gravity"
+    },
+    {
+      "question": "What is the unit of electrical resistance?",
+      "options": ["Ampere", "Volt", "Watt", "Ohm"],
+      "answer": "Ohm"
+    },
+    {
+      "question": "DNA stands for?",
+      "options": [
+        "Deoxyribonucleic Acid",
+        "Diribonucleic Acid",
+        "Deoxyribonitric Acid",
+        "Dinucleotide Acid"
+      ],
+      "answer": "Deoxyribonucleic Acid"
+    }
+  ]
+}

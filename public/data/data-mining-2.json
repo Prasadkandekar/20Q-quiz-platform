@@ -1,0 +1,225 @@
+{
+  "title": "Data Mining for Decision Making - Week 2",
+  "questions": [
+    {
+      "question": "In a Student–Professor dataset with 6 Students and 2 Professors, the entropy at the root is closest to:",
+      "options": [
+        "0.81",
+        "0.95",
+        "1.00",
+        "0.72",
+        "None of these"
+      ],
+      "answer": "0.81"
+    },
+    {
+      "question": "What is the primary goal of constructing a decision tree?",
+      "options": [
+        "Data compression",
+        "Generating if–then classification rules",
+        "Feature normalization",
+        "Density estimation",
+        "None of these"
+      ],
+      "answer": "Generating if–then classification rules"
+    },
+    {
+      "question": "If all samples at a node belong to the same class, the node entropy is:",
+      "options": [
+        "1",
+        "0.5",
+        "Maximum",
+        "0",
+        "None of these"
+      ],
+      "answer": "0"
+    },
+    {
+      "question": "Which quantity is minimized when selecting the best attribute for a split in a decision tree?",
+      "options": [
+        "Root entropy",
+        "Weighted entropy after split",
+        "Number of branches",
+        "Dataset size",
+        "None of these"
+      ],
+      "answer": "Weighted entropy after split"
+    },
+    {
+      "question": "At a node in a decision tree, the entropy is 0.94. After splitting on attribute Habit, the weighted entropy becomes 0.30. What is the Information Gain obtained by splitting on Habit?",
+      "options": [
+        "0.30",
+        "0.64",
+        "0.94",
+        "1.24",
+        "None of these"
+      ],
+      "answer": "0.64"
+    },
+    {
+      "question": "Which dataset is used to decide the optimal attribute ordering in a decision tree?",
+      "options": [
+        "Test set",
+        "Validation set",
+        "Training set",
+        "Unlabeled set",
+        "None of these"
+      ],
+      "answer": "Training set"
+    },
+    {
+      "question": "When an attribute value is missing in a decision tree, a common strategy is to:",
+      "options": [
+        "Discard the record",
+        "Assign it randomly",
+        "Distribute the instance fractionally among branches",
+        "Always choose left branch",
+        "None of these"
+      ],
+      "answer": "Distribute the instance fractionally among branches"
+    },
+    {
+      "question": "Information Gain of an attribute is computed as:",
+      "options": [
+        "Difference between split entropy and root entropy",
+        "Root entropy minus weighted split entropy",
+        "Product of probabilities",
+        "Ratio of entropies",
+        "None of these"
+      ],
+      "answer": "Root entropy minus weighted split entropy"
+    },
+    {
+      "question": "If splitting on an attribute does not change entropy, the Information Gain is:",
+      "options": [
+        "1",
+        "−1",
+        "Maximum",
+        "0",
+        "None of these"
+      ],
+      "answer": "0"
+    },
+    {
+      "question": "Production rules generated from a decision tree correspond to:",
+      "options": [
+        "Root node only",
+        "Random paths",
+        "Leaf-to-root paths",
+        "Root-to-leaf paths",
+        "None of these"
+      ],
+      "answer": "Root-to-leaf paths"
+    },
+    {
+      "question": "The perceptron learning rule updates weights using:",
+      "options": [
+        "Δw = β(y − z)x",
+        "Δw = β(z − y)x",
+        "Δw = β(y + z)x",
+        "Δw = (z − y)/x",
+        "None of these"
+      ],
+      "answer": "Δw = β(z − y)x"
+    },
+    {
+      "question": "What does the learning rate β control in a neural network?",
+      "options": [
+        "Number of hidden layers",
+        "Speed of weight updates",
+        "Activation function shape",
+        "Output threshold",
+        "None of these"
+      ],
+      "answer": "Speed of weight updates"
+    },
+    {
+      "question": "A single-layer perceptron can correctly model which logic gate?",
+      "options": [
+        "XOR",
+        "XNOR",
+        "AND",
+        "Half-adder",
+        "None of these"
+      ],
+      "answer": "AND"
+    },
+    {
+      "question": "Why can XOR not be modeled by a single perceptron?",
+      "options": [
+        "Too many inputs",
+        "Requires sigmoid activation",
+        "Not linearly separable",
+        "Output is binary",
+        "None of these"
+      ],
+      "answer": "Not linearly separable"
+    },
+    {
+      "question": "Input x = [1, 0], weights w = [0.4, −0.2], bias = −0.1. Using step activation, output is:",
+      "options": [
+        "0",
+        "1",
+        "−1",
+        "2",
+        "None of these"
+      ],
+      "answer": "1"
+    },
+    {
+      "question": "Which activation function outputs values in the range (0,1)?",
+      "options": [
+        "Step",
+        "Linear",
+        "Sigmoid",
+        "Tanh",
+        "None of these"
+      ],
+      "answer": "Sigmoid"
+    },
+    {
+      "question": "Which activation function outputs values between −1 and +1?",
+      "options": [
+        "Sigmoid",
+        "Linear",
+        "Step",
+        "Hyperbolic tangent",
+        "None of these"
+      ],
+      "answer": "Hyperbolic tangent"
+    },
+    {
+      "question": "Backpropagation is mainly used to:",
+      "options": [
+        "Initialize weights",
+        "Reduce classification labels",
+        "Adjust weights to minimize error",
+        "Increase learning rate",
+        "None of these"
+      ],
+      "answer": "Adjust weights to minimize error"
+    },
+    {
+      "question": "In case-based updating, weights are updated:",
+      "options": [
+        "After all training samples",
+        "After each training sample",
+        "Only once",
+        "Randomly",
+        "None of these"
+      ],
+      "answer": "After each training sample"
+    },
+    {
+      "question": "A two-layer neural network is required to model:",
+      "options": [
+        "AND gate",
+        "OR gate",
+        "NAND gate",
+        "XOR gate",
+        "None of these"
+      ],
+      "answer": "XOR gate"
+    }
+  ]
+}

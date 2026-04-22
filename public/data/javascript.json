@@ -1,0 +1,65 @@
+{
+  "title": "JavaScript Fundamentals",
+  "questions": [
+    {
+      "question": "Which keyword declares a block-scoped variable in modern JavaScript?",
+      "options": ["var", "let", "const", "both let and const"],
+      "answer": "both let and const"
+    },
+    {
+      "question": "What does the '===' operator check?",
+      "options": ["Value only", "Type only", "Value and type", "Reference equality"],
+      "answer": "Value and type"
+    },
+    {
+      "question": "What is the output of: typeof null?",
+      "options": ["null", "undefined", "object", "string"],
+      "answer": "object"
+    },
+    {
+      "question": "Which array method returns a new array with all elements that pass a test?",
+      "options": ["map()", "reduce()", "filter()", "find()"],
+      "answer": "filter()"
+    },
+    {
+      "question": "What is a closure in JavaScript?",
+      "options": [
+        "A function that runs immediately",
+        "A function with access to its outer scope's variables",
+        "An object with private properties",
+        "A way to close the browser window"
+      ],
+      "answer": "A function with access to its outer scope's variables"
+    },
+    {
+      "question": "What does 'async/await' build on top of?",
+      "options": ["Callbacks", "Generators", "Promises", "Event Emitters"],
+      "answer": "Promises"
+    },
+    {
+      "question": "Which method is used to add an element to the end of an array?",
+      "options": ["shift()", "unshift()", "push()", "pop()"],
+      "answer": "push()"
+    },
+    {
+      "question": "What is the purpose of the spread operator (...)?",
+      "options": [
+        "To delete object properties",
+        "To expand iterables into individual elements",
+        "To combine two numbers",
+        "To declare rest parameters only"
+      ],
+      "answer": "To expand iterables into individual elements"
+    },
+    {
+      "question": "What does 'NaN === NaN' evaluate to?",
+      "options": ["true", "false", "undefined", "TypeError"],
+      "answer": "false"
+    },
+    {
+      "question": "Which ES6 feature allows destructuring assignment from objects and arrays?",
+      "options": ["Template literals", "Arrow functions", "Destructuring", "Default parameters"],
+      "answer": "Destructuring"
+    }
+  ]
+}

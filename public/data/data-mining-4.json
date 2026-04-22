@@ -1,0 +1,225 @@
+{
+  "title": "Data Mining for Decision Making - Assignment 4",
+  "questions": [
+    {
+      "question": "What is the main objective of a hard-margin SVM?",
+      "options": [
+        "Minimize classification error",
+        "Maximize likelihood",
+        "Maximize the margin between classes",
+        "Reduce dimensionality",
+        "None of the above"
+      ],
+      "answer": "Maximize the margin between classes"
+    },
+    {
+      "question": "Which data points define the SVM decision boundary?",
+      "options": [
+        "All training samples",
+        "Cluster centroids",
+        "Support vectors",
+        "Mean vectors",
+        "None of the above"
+      ],
+      "answer": "Support vectors"
+    },
+    {
+      "question": "Soft-margin SVM is used when:",
+      "options": [
+        "Data is perfectly separable",
+        "Data is unlabeled",
+        "Data is non-linear",
+        "Data is overlapping",
+        "None of the above"
+      ],
+      "answer": "Data is overlapping"
+    },
+    {
+      "question": "In soft-margin SVM, the parameter C controls:",
+      "options": [
+        "Kernel type",
+        "Margin width only",
+        "Trade-off between margin and error",
+        "Distance metric",
+        "None of the above"
+      ],
+      "answer": "Trade-off between margin and error"
+    },
+    {
+      "question": "The kernel trick helps SVM to:",
+      "options": [
+        "Reduce training time",
+        "Handle missing data",
+        "Separate non-linear data",
+        "Remove noise",
+        "None of the above"
+      ],
+      "answer": "Separate non-linear data"
+    },
+    {
+      "question": "LDA assumes that data follows which distribution?",
+      "options": [
+        "Uniform",
+        "Exponential",
+        "Multivariate normal",
+        "Poisson",
+        "None of the above"
+      ],
+      "answer": "Multivariate normal"
+    },
+    {
+      "question": "LDA assigns an object to the class with:",
+      "options": [
+        "Minimum Euclidean distance",
+        "Maximum likelihood",
+        "Maximum posterior probability",
+        "Minimum variance",
+        "None of the above"
+      ],
+      "answer": "Maximum posterior probability"
+    },
+    {
+      "question": "When covariance matrices of all groups are equal, the discriminant function becomes:",
+      "options": [
+        "Quadratic",
+        "Non-linear",
+        "Linear",
+        "Exponential",
+        "None of the above"
+      ],
+      "answer": "Linear"
+    },
+    {
+      "question": "Mahalanobis distance differs from Euclidean distance because it:",
+      "options": [
+        "Ignores variance",
+        "Accounts for feature correlation",
+        "Uses absolute differences",
+        "Works only in 1D",
+        "None of the above"
+      ],
+      "answer": "Accounts for feature correlation"
+    },
+    {
+      "question": "Given two points A(2, 3) and B(5, 7), what is the Euclidean distance?",
+      "options": [
+        "4",
+        "5",
+        "√25",
+        "√32",
+        "None of the above"
+      ],
+      "answer": "5"
+    },
+    {
+      "question": "Increasing the value of K generally:",
+      "options": [
+        "Increases variance",
+        "Decreases bias",
+        "Smooths decision boundary",
+        "Causes overfitting",
+        "None of the above"
+      ],
+      "answer": "Smooths decision boundary"
+    },
+    {
+      "question": "Hamming distance is used for:",
+      "options": [
+        "Continuous variables",
+        "Ordinal data",
+        "Non-numeric categorical attributes",
+        "Probability distributions",
+        "None of the above"
+      ],
+      "answer": "Non-numeric categorical attributes"
+    },
+    {
+      "question": "Association rule X → Y means:",
+      "options": [
+        "X and Y never occur together",
+        "X causes Y",
+        "If X occurs, Y is likely to occur",
+        "Y occurs before X",
+        "None of the above"
+      ],
+      "answer": "If X occurs, Y is likely to occur"
+    },
+    {
+      "question": "Support of an itemset measures:",
+      "options": [
+        "Rule strength",
+        "Conditional probability",
+        "Frequency in transactions",
+        "Correlation",
+        "None of the above"
+      ],
+      "answer": "Frequency in transactions"
+    },
+    {
+      "question": "In a database of 10 transactions, the itemset {Milk, Bread} appears in 4 transactions. What is the support?",
+      "options": [
+        "0.2",
+        "0.3",
+        "0.4",
+        "0.5",
+        "None of the above"
+      ],
+      "answer": "0.4"
+    },
+    {
+      "question": "G² (deviance) is minimized to:",
+      "options": [
+        "Increase likelihood",
+        "Reduce error variance",
+        "Improve model fit",
+        "Increase complexity",
+        "None of the above"
+      ],
+      "answer": "Improve model fit"
+    },
+    {
+      "question": "AIC penalizes models for:",
+      "options": [
+        "Low accuracy",
+        "High bias",
+        "High variance",
+        "Number of parameters",
+        "None of the above"
+      ],
+      "answer": "Number of parameters"
+    },
+    {
+      "question": "Compared to AIC, BIC:",
+      "options": [
+        "Penalizes complexity less",
+        "Ignores sample size",
+        "Penalizes complexity more",
+        "Maximizes likelihood",
+        "None of the above"
+      ],
+      "answer": "Penalizes complexity more"
+    },
+    {
+      "question": "Likelihood in model comparison represents:",
+      "options": [
+        "Model complexity",
+        "Prediction accuracy",
+        "Probability of observed data given the model",
+        "Classification error",
+        "None of the above"
+      ],
+      "answer": "Probability of observed data given the model"
+    },
+    {
+      "question": "Best practice in model selection is to:",
+      "options": [
+        "Use only accuracy",
+        "Use only AIC",
+        "Use multiple metrics and theory",
+        "Select most complex model",
+        "None of the above"
+      ],
+      "answer": "Use multiple metrics and theory"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title": "Mathematics",
+  "questions": [
+    {
+      "question": "What is the value of π (pi) to 2 decimal places?",
+      "options": ["3.12", "3.14", "3.16", "3.18"],
+      "answer": "3.14"
+    },
+    {
+      "question": "What is the square root of 144?",
+      "options": ["10", "11", "12", "13"],
+      "answer": "12"
+    },
+    {
+      "question": "If a triangle has angles of 60°, 60°, and 60°, what type is it?",
+      "options": ["Scalene", "Isosceles", "Right-angled", "Equilateral"],
+      "answer": "Equilateral"
+    },
+    {
+      "question": "What is 15% of 200?",
+      "options": ["25", "30", "35", "40"],
+      "answer": "30"
+    },
+    {
+      "question": "What is the formula for the area of a circle?",
+      "options": ["2πr", "πr²", "πd", "2πr²"],
+      "answer": "πr²"
+    },
+    {
+      "question": "Solve: 3x + 7 = 22. What is x?",
+      "options": ["3", "4", "5", "6"],
+      "answer": "5"
+    },
+    {
+      "question": "What is the probability of rolling a 6 on a fair die?",
+      "options": ["1/4", "1/5", "1/6", "1/3"],
+      "answer": "1/6"
+    },
+    {
+      "question": "Which of these is a prime number?",
+      "options": ["15", "21", "37", "49"],
+      "answer": "37"
+    },
+    {
+      "question": "What is the least common multiple (LCM) of 4 and 6?",
+      "options": ["8", "10", "12", "24"],
+      "answer": "12"
+    },
+    {
+      "question": "What is 2 to the power of 10?",
+      "options": ["512", "1024", "2048", "256"],
+      "answer": "1024"
+    }
+  ]
+}

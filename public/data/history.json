@@ -1,0 +1,60 @@
+{
+  "title": "World History",
+  "questions": [
+    {
+      "question": "In what year did World War II end?",
+      "options": ["1943", "1944", "1945", "1946"],
+      "answer": "1945"
+    },
+    {
+      "question": "Who was the first President of the United States?",
+      "options": ["John Adams", "Thomas Jefferson", "Benjamin Franklin", "George Washington"],
+      "answer": "George Washington"
+    },
+    {
+      "question": "The French Revolution began in which year?",
+      "options": ["1776", "1789", "1799", "1804"],
+      "answer": "1789"
+    },
+    {
+      "question": "Which ancient wonder was located in Alexandria, Egypt?",
+      "options": [
+        "The Colossus of Rhodes",
+        "The Hanging Gardens",
+        "The Lighthouse of Alexandria",
+        "The Temple of Artemis"
+      ],
+      "answer": "The Lighthouse of Alexandria"
+    },
+    {
+      "question": "Who wrote the Magna Carta's principles into law in 1215?",
+      "options": ["King Richard I", "King John", "King Henry II", "King Edward I"],
+      "answer": "King John"
+    },
+    {
+      "question": "The Berlin Wall fell in which year?",
+      "options": ["1987", "1988", "1989", "1990"],
+      "answer": "1989"
+    },
+    {
+      "question": "Which empire was ruled by Genghis Khan?",
+      "options": ["Ottoman Empire", "Roman Empire", "Mongol Empire", "Byzantine Empire"],
+      "answer": "Mongol Empire"
+    },
+    {
+      "question": "In which city did the 1969 moon landing astronauts return to Earth?",
+      "options": ["Cape Canaveral", "Houston", "The Pacific Ocean", "The Gulf of Mexico"],
+      "answer": "The Pacific Ocean"
+    },
+    {
+      "question": "Who was the last Pharaoh of Ancient Egypt?",
+      "options": ["Nefertiti", "Cleopatra VII", "Hatshepsut", "Ramesses II"],
+      "answer": "Cleopatra VII"
+    },
+    {
+      "question": "The Industrial Revolution began in which country?",
+      "options": ["France", "Germany", "United States", "Great Britain"],
+      "answer": "Great Britain"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "title": "Data Mining for Decision Making",
+  "questions": [
+    {
+      "question": "What type of learning method is clustering?",
+      "options": [
+        "Supervised learning",
+        "Reinforcement learning",
+        "Unsupervised learning",
+        "Semi-supervised learning",
+        "None of the above"
+      ],
+      "answer": "Unsupervised learning"
+    },
+    {
+      "question": "In agglomerative hierarchical clustering, how does the algorithm start?",
+      "options": [
+        "With all points in one cluster",
+        "With randomly chosen centroids",
+        "With each pattern in its own cluster",
+        "With predefined labels",
+        "None of the above"
+      ],
+      "answer": "With each pattern in its own cluster"
+    },
+    {
+      "question": "Single-linkage clustering defines distance between two clusters as:",
+      "options": [
+        "Maximum distance between points",
+        "Average distance between points",
+        "Distance between centroids",
+        "Minimum distance between any pair of points",
+        "None of the above"
+      ],
+      "answer": "Minimum distance between any pair of points"
+    },
+    {
+      "question": "Which linkage method is most likely to produce “chained” clusters?",
+      "options": [
+        "Complete linkage",
+        "Average linkage",
+        "Single linkage",
+        "Centroid linkage",
+        "None of the above"
+      ],
+      "answer": "Single linkage"
+    },
+    {
+      "question": "Complete-linkage clustering measures cluster distance using:",
+      "options": [
+        "Minimum pairwise distance",
+        "Maximum pairwise distance",
+        "Mean of centroids",
+        "Median distance",
+        "None of the above"
+      ],
+      "answer": "Maximum pairwise distance"
+    },
+    {
+      "question": "Which clustering method is non-hierarchical?",
+      "options": [
+        "Single linkage",
+        "Complete linkage",
+        "Average linkage",
+        "K-means clustering",
+        "None of the above"
+      ],
+      "answer": "K-means clustering"
+    },
+    {
+      "question": "In K-means clustering, each cluster is represented by:",
+      "options": [
+        "A boundary line",
+        "A medoid",
+        "A centroid",
+        "A random data point",
+        "None of the above"
+      ],
+      "answer": "A centroid"
+    },
+    {
+      "question": "What is the first step in the K-means algorithm?",
+      "options": [
+        "Assign points to nearest centroid",
+        "Compute covariance matrix",
+        "Choose the number of clusters k",
+        "Merge closest clusters",
+        "None of the above"
+      ],
+      "answer": "Choose the number of clusters k"
+    },
+    {
+      "question": "K-means clustering stops iterating when:",
+      "options": [
+        "All points change clusters",
+        "Centroids stabilize",
+        "SSE becomes zero",
+        "Clusters become hierarchical",
+        "None of the above"
+      ],
+      "answer": "Centroids stabilize"
+    },
+    {
+      "question": "PCA is primarily used for:",
+      "options": [
+        "Classification",
+        "Dimensionality reduction",
+        "Clustering",
+        "Hypothesis testing",
+        "None of the above"
+      ],
+      "answer": "Dimensionality reduction"
+    },
+    {
+      "question": "Principal components are:",
+      "options": [
+        "Original input features",
+        "Random projections",
+        "Orthogonal directions capturing variance",
+        "Cluster centroids",
+        "None of the above"
+      ],
+      "answer": "Orthogonal directions capturing variance"
+    },
+    {
+      "question": "Before computing the covariance matrix in PCA, the data must be:",
+      "options": [
+        "Normalized",
+        "Mean-centered",
+        "Clustered",
+        "Sorted",
+        "None of the above"
+      ],
+      "answer": "Mean-centered"
+    },
+    {
+      "question": "In PCA, eigenvalues indicate:",
+      "options": [
+        "Direction of principal components",
+        "Number of features",
+        "Amount of variance captured",
+        "Correlation strength",
+        "None of the above"
+      ],
+      "answer": "Amount of variance captured"
+    },
+    {
+      "question": "Keeping only the first principal component mainly results in:",
+      "options": [
+        "Perfect reconstruction",
+        "Increased dimensionality",
+        "Maximum variance retention",
+        "Loss of all information",
+        "None of the above"
+      ],
+      "answer": "Maximum variance retention"
+    },
+    {
+      "question": "A logistic regression model is given by: p(y = 1 | x) = 1 / (1 + exp(−(β₀ + β₁x₁ + β₂x₂))). Given: β₀ = −2, β₁ = 0.8, β₂ = 0.6. For the data point: x = (x₁, x₂) = (3, 1). Using a classification threshold of 0.5, the predicted class is:",
+      "options": [
+        "Positive (class 1)",
+        "Negative (class 0)",
+        "Exactly on the decision boundary",
+        "Cannot be determined without standardization",
+        "None of these"
+      ],
+      "answer": "Positive (class 1)"
+    },
+    {
+      "question": "In the linear regression equation Y=β0+β1X+ε, β1 represents:",
+      "options": [
+        "The intercept",
+        "The error term",
+        "The slope",
+        "The variance",
+        "None of the above"
+      ],
+      "answer": "The slope"
+    },
+    {
+      "question": "Residuals in linear regression are:",
+      "options": [
+        "Predicted values",
+        "Squared errors",
+        "Differences between actual and predicted values",
+        "Mean of Y",
+        "None of the above"
+      ],
+      "answer": "Differences between actual and predicted values"
+    },
+    {
+      "question": "Given the following values from a regression model: SStot = 160, SSres = 40. The coefficient of determination R² is:",
+      "options": [
+        "0.25",
+        "0.50",
+        "0.75",
+        "1.25",
+        "None of these"
+      ],
+      "answer": "0.75"
+    },
+    {
+      "question": "An R² value of 0.82 means:",
+      "options": [
+        "82% of errors are eliminated",
+        "Model is perfect",
+        "82% of variance in Y is explained",
+        "82% of predictions are correct",
+        "None of the above"
+      ],
+      "answer": "82% of variance in Y is explained"
+    },
+    {
+      "question": "Linear regression is unsuitable for classification because:",
+      "options": [
+        "It requires too much data",
+        "It cannot compute errors",
+        "Predictions can fall outside valid probability range",
+        "It does not use parameters",
+        "None of the above"
+      ],
+      "answer": "Predictions can fall outside valid probability range"
+    }
+  ]
+}
